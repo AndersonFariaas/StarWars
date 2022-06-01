@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Cabeçalho do site */
+
+header{
+    background-image: url(Imagens/img-header.png);
+    background-size: cover;
+    height: 43vw;
+    position: relative;
+}
+.star{
+    position: absolute;
+    width: 24vw;
+    left: 18.5%;
+    top: 52%;
+}
+.wars{
+    width: 26vw;
+    position: absolute;
+    right: 9%;
+    top: 52%;
+}
+.kylo{
+    width: 70vw;
+    position: absolute;
+    left: 10%;
+    top: -2%;
+    filter: drop-shadow(30px 30px 15px rgba(0, 0, 0, 0.9)) contrast(1.1);    
+}
+.crie{
+    position: absolute;
+    right: 10.5%;
+    top: 76%;
+    width: 9.4vw;
+}
+
+/* Iniciando a main */
+
+main{
+    background-image: url(Imagens/img-aside.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vw;
+}
+.text-Comece{
+    position: absolute;
+    left: 14.5%;
+    top: 77.5%;
+    width: 250px;
+    height: 430px;
+    background-image: url(Imagens/comece_a_jogar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 10.5vw 10vh 10.5vw;
+}
+.text-Comece-box1{
+    width: 130px;
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 55px;
+    line-height: 1.2;
+    color: #fff;
+}
+.text-Comece-box2{
+    width: 250px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    opacity: 0.6;
+    line-height: 1.2;
+}
+.text-Comece-box3 button{
+    padding: 9px 30px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #fff;
+}
+.sobre{
+    width: 350px;
+    position: absolute;
+    right: 28%;
+    top: 114.5%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+.sobre-line{
+    width: 120px;
+    background: black;
+    border: 1.5px solid;
+    margin: 15px 230px;
+}
+.sobre-box1{
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: -5px;
+}
+.sobre-box2{
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.2;
+}
+.sobre-img{
+    width: 300px;
+    position: absolute;
+    right: 5%;
+    top: 115%;
+}
+.sobre-img img{
+    width: 280px;
+}
+.line-main{
+    width: 78.5%;
+    height: 4px;
+    background: gray;
+    position: relative;
+    left: 200px;
+    top: 450px;
+}
+.list-main{
+    width: 450px;
+    height: 400px;
+    position: relative;
+    left: 37%;
+    top: 50%;
+    text-align: right;
+}
+.list-main h2{
+    text-align: right;
+    margin-left: 190px;
+    font-size: 3em;
+    font-family: 'Mukta', sans-serif;
+    width: 250px;
+    line-height: 3vw;
+}
+.list-main li{
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+}
+.jedai-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.lord{
+    width: 600px;
+    margin-left: 100px;
+}
+.rey{
+    margin-top: 50px;
+    width: 280px;
+    height: 50%;
+}
