@@ -265,3 +265,39 @@ hr{
 
 /* Iniciando a Footer */
 
+footer{
+    position: absolute;
+    height: 46vw;
+    width: 95vw;
+    top: 520%;
+    padding: 3.5vw 9vw 0 14.5vw;
+    background: linear-gradient(90deg, #ff5a56, #ff5a56 64%, #fff 64%, #fff)
+}
+.footer-box01{
+    width: 350px;
+    height: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 4px solid firebrick;
+    padding-bottom: 30px;
+}
+.footer-box01 h4{
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: #fff;
+}
+.footer-box01 figure{
+    display: flex;
+    width: 50%;
+}
+.footer-box01 p{
+    font-family: 'Mukta';
+    color: #fff;
+    font-size: 14px;
+}
+.footer-box01 figure img{
+    margin-right: 10px;
+    width: 95%;
+}
